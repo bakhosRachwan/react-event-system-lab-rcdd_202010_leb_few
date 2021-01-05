@@ -1,11 +1,11 @@
 import React, {components} from 'react';
 
-export default function Keypad () {
-  render ({
+class Keypad extends React.Component {
+  render() {
     return (
       <div>
         <input type="password" />
       </div>
-    );
-  })
+    )
+  }
 }
