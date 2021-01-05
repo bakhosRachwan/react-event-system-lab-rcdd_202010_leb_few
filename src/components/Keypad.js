@@ -5,7 +5,7 @@ export default function Keypad () {
     return (
       <div calssNAme="keypad">
         <input type="password" >
-      </div>;
+      </div>
     )
 
 }
