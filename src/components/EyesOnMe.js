@@ -1,10 +1,11 @@
 import React from 'react';
 
 class EyesOnMe extends React.Component {
-  function focus (){
-    console.log("Good!")
-  }
+  
   render() {
+    function focus (){
+      console.log("Good!")
+    }
     return (
       <div>
         <button onFocus={this.focus} onBlur={console.log("Hey! Eyes on me!")}></button>
