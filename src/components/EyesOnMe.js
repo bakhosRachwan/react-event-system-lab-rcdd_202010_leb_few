@@ -3,7 +3,7 @@ import React from 'react';
 class EyesOnMe extends React.Component {
 
   render() {
-    function focus (){
+    function focus (e){
       console.log("Good!")
     }
     return (
