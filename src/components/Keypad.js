@@ -1,4 +1,4 @@
-import React {components} from 'react';
+import React, {components} from 'react';
 
 export default function Keypad () {
   render (){
